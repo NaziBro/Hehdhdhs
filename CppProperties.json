@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Release",
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**",
+        "D:\\android-ndk-r19c\\sysroot\\usr\\include",
+        "D:\\android-ndk-r19c\\sysroot\\usr\\include\\linux",
+        "D:\\android-ndk-r19c\\sysroot\\usr\\include\\aarch64-linux-android"
+      ],
+      "defines": [
+        "WIN32",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}
